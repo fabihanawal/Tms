@@ -1,0 +1,22 @@
+{
+  "short_name": "টিএমএস সরিষার তেল",
+  "name": "টিএমএস (TMS) প্রিমিয়াম সরিষার তেল",
+  "description": "টিএমএস (TMS) সরিষার তেল ডিস্ট্রিবিউশন ও ৫-স্তরের আনিলিস্ট এমএলএম সিস্টেম",
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=192&q=80",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=512&q=80",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#F8FAFC",
+  "theme_color": "#0F7A39",
+  "display": "standalone",
+  "orientation": "portrait"
+}
