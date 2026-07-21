@@ -423,20 +423,6 @@ export default function MemberDashboard({ language, user, onLoginSuccess, onRefr
 
         </div>
 
-        {/* Demo Accounts Info Box for seamless review testing */}
-        <div className="bg-slate-800 text-slate-100 rounded-xl p-4 border border-slate-700 text-xs space-y-2">
-          <p className="font-extrabold text-[#E7B416] flex items-center">
-            <Shield className="w-4 h-4 mr-1 text-[#E7B416]" />
-            <span>{language === "bn" ? "ডেভেলপার টেস্ট গাইড (ডেমো অ্যাকাউন্ট):" : "Developer Fast Testing Guide:"}</span>
-          </p>
-          <div className="space-y-1 font-mono text-[11px] text-slate-300 leading-relaxed">
-            <p>• {language === "bn" ? "এডমিন লগইন নম্বর:" : "Admin Login Mobile:"} <strong className="text-white">01966291176</strong> (OTP: <strong className="text-white">1976</strong> / simulated)</p>
-            <p>• {language === "bn" ? "মেম্বার লগইন নম্বর:" : "Member Login Mobile:"} <strong className="text-white">01711223344</strong> (Karim, OTP: 1976)</p>
-            <p>• {language === "bn" ? "মেম্বার লগইন নম্বর ২:" : "Member Login Mobile 2:"} <strong className="text-white">01822334455</strong> (Rofiqul, OTP: 1976)</p>
-            <p>• {language === "bn" ? "মাস্টার কোড ওভাররাইড:" : "Master Code Override:"} <strong className="text-yellow-400">1976</strong> ({language === "bn" ? "যেকোনো অ্যাকাউন্টে ওটিপি হিসেবে প্রযোজ্য" : "Works as valid OTP on all mobiles"})</p>
-          </div>
-        </div>
-
       </div>
     );
   }
