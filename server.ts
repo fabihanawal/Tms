@@ -133,6 +133,10 @@ async function startServer() {
     res.json((req as any).user);
   });
 
+  app.get("/api/user/me", authenticateUser, (req, res) => {
+    res.json((req as any).user);
+  });
+
   // 3. User & Member dashboard endpoints
   app.post("/api/user/update-bank", authenticateUser, (req, res) => {
     const user = (req as any).user;
